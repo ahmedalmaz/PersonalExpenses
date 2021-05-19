@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class TransActionList extends StatelessWidget {
-  List<Transaction> transactions;
-  Function deleteTx;
+  final List<Transaction> transactions;
+  final Function deleteTx;
   TransActionList(this.transactions, this.deleteTx);
 
   @override
